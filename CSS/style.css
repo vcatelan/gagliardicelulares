@@ -79,9 +79,33 @@ img {
 }
 
 .home-info {
-
+	flex: 2 1 300px;
+	margin: 0 10px;
 }
 
 .home-info p {
+	font-size: 1.25em;
+	line-height: 1.4;
+	margin-bottom: 1em;
+	color: #7c7c7c;
+}
 
+.home-imagem {
+	flex: 1 1 160px;
+	margin: 0 10px;
+	width: 300px;
+}
+
+
+
+
+.footerinfo-bg {
+    background-color: #FF0000;
+    color: white;
+    display: flex;
+}
+
+.footer-bg {
+    background-color: #9B0000;
+    color: white;
 }
