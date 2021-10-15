@@ -80,6 +80,7 @@ img {
 	padding: 60px 0;
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: column;
 }
 
 .home-info {
@@ -101,6 +102,7 @@ img {
 	margin: 0 10px;
 	height: 250px;
 	display: flex;
+	
 }
 
 .assistencia {
