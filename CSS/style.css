@@ -36,7 +36,7 @@ img {
 
 .menu {
 	max-width: 950px;
-	margin: 0 auto;
+	margin: 0 0 0 50px;
 	padding: 15px 0;
 	display: flex;
 	flex-wrap: wrap;
@@ -52,6 +52,10 @@ img {
 	font-size: 2.25em;
 	font-weight: bold;
 	margin: 0 10px;
+}
+
+.menu-nav {
+	margin-right: 50px;
 }
 
 .menu-nav ul {
@@ -81,9 +85,11 @@ img {
 .home-info {
 	flex: 2 1 300px;
 	margin: 0 10px;
+	display: flex;
 }
 
 .home-info p {
+	max-width: 450px;
 	font-size: 1.25em;
 	line-height: 1.4;
 	margin-bottom: 1em;
@@ -93,10 +99,86 @@ img {
 .home-imagem {
 	flex: 1 1 160px;
 	margin: 0 10px;
-	width: 300px;
+	height: 250px;
+	display: flex;
+}
+
+.assistencia {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+}
+
+.assistencia-info {
+
+}
+
+.assistencia-info h2{
+	font-size: 3em;
+	margin-bottom: .5em;
+}
+
+.assistencia-info p{
+	font-size: 1.25em;
+	line-height: 1.4;
+	margin-bottom: 1em;
+	color: #7c7c7c;
+
 }
 
 
+.acessorios {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+}
+
+.acessorios-info {
+
+}
+
+.acessorios-info h2{
+	font-size: 3em;
+	margin-bottom: .5em;
+}
+
+.acessorios-info p{
+	font-size: 1.25em;
+	line-height: 1.4;
+	margin-bottom: 1em;
+	color: #7c7c7c;
+
+}
+
+.contato {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+}
+
+.contato-info {
+
+}
+
+.contato-info h2{
+	font-size: 3em;
+	margin-bottom: .5em;
+}
+
+.contato-info p{
+	font-size: 1.25em;
+	line-height: 1.4;
+	margin-bottom: 1em;
+	color: #7c7c7c;
+
+}
+
+.marca {
+
+}
 
 
 .footerinfo-bg {
