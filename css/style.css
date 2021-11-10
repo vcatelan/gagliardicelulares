@@ -81,6 +81,7 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
+	border-bottom: 5px solid #9B0000;
 }
 .home-info {
 	flex: 2 1 300px;
@@ -107,16 +108,21 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	border-top: 5px solid #9B0000;
-}
 
+}
+.servicos {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	border-bottom: 5px solid #9B0000;
+
+}
 .assistencia {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 60px 0;
 	display: flex;
-}
-.assistencia-info {
 
 }
 .assistencia-info h2{
@@ -135,9 +141,6 @@ img {
 	padding: 60px 0;
 	display: flex;
 }
-.acessorios-info {
-
-}
 .acessorios-info h2{
 	font-size: 3em;
 	margin-bottom: .5em;
@@ -153,9 +156,6 @@ img {
 	margin: 0 auto;
 	padding: 60px 0;
 	display: flex;
-}
-.contato-info {
-
 }
 .contato-info h2{
 	font-size: 3em;
