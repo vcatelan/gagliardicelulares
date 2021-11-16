@@ -21,12 +21,12 @@ img {
 }
 .menuinfo {
     color: white;
-    max-width: 950px;
+    max-width: 960px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .menuinfo a, .menuinfo p {
     margin: 0 10px 10px 10px 10px;
@@ -89,7 +89,7 @@ img {
 	display: flex;
 }
 .home-info p {
-	max-width: 450px;
+	/* max-width: 450px; */
 	font-size: 1.25em;
 	line-height: 1.4;
 	margin-bottom: 1em;
@@ -108,7 +108,31 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
+}
+.atendimento-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-end;
+}
 
+.atendimento-item {
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.atendimento-item h2 {
+    font-size: 3em;
+    color: white;
+    background: #FF0000; 
+    padding: 60px 20px;
+}
+
+.atendimento-item a{
+    color: white;
+}
+
+.atendimento-item a:hover {
+    color: #9B0000;
 }
 .servicos {
 	max-width: 960px;
