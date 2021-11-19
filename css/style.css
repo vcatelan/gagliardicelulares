@@ -2,10 +2,16 @@ h2 {
 	font-size: 3em;
 	margin-bottom: .5em;
 }
-p, a {
+p {
 	font-size: 1.25em;
 	line-height: 1.4;
 	margin-bottom: 1em;
+	color: #7c7c7c;
+} 
+
+a {
+	font-size: 1.25em;
+	line-height: 1.4;
 	color: #7c7c7c;
 } 
 img {
@@ -21,16 +27,23 @@ img {
 }
 .menuinfo {
     color: white;
-    max-width: 960px;
-    margin: 0 auto;
+    
+    height: 48px;
+    margin: 0 115px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* padding: 10px; */
+  
+    align-items: center;
 }
 .menuinfo a, .menuinfo p {
     margin: 0 10px 10px 10px 10px;
 }
+
+.menuinfo > p {
+	margin-bottom: 0px;
+}
+
 .menuinfo a {
     color: white;
 }
@@ -140,6 +153,9 @@ img {
 	padding: 60px 0;
 	display: flex;
 	border-bottom: 5px solid #9B0000;
+	display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
 
 }
 .assistencia {
