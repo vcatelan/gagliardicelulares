@@ -27,14 +27,12 @@ img {
 }
 .menuinfo {
     color: white;
-    
-    height: 48px;
-    margin: 0 115px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  
-    align-items: center;
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 10px;
 }
 .menuinfo a, .menuinfo p {
     margin: 0 10px 10px 10px 10px;
@@ -47,6 +45,10 @@ img {
 .menuinfo a {
     color: white;
 }
+.menuinfo a:hover {
+    color: #FF0000;
+}
+
 .menu-bg{
     background-color: #FF0000;
     color: white;
@@ -208,7 +210,7 @@ img {
 	color: #7c7c7c;
 }
 .marcas {
-	width: 500px;
+	width: 300px;
 	background-color: #FF0000;
 	border-radius: 10px;
 	align-items: center;
@@ -216,11 +218,14 @@ img {
 	flex: 1 1 300px;
 	display: flex;
 	margin: 10px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 .marca {
-	height: 120px;
+	height: 110px;
 	padding: 10px;
-	flex: 1 2 300px;
+	flex: 1 2 100px;
 }
 .marcas p{
 	font-size: 1.25em;
