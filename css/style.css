@@ -259,7 +259,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border: 1px solid;
-    color: black;
+    color: white;
 }
 textarea {
     width: 960px	;
@@ -277,5 +277,7 @@ form label {
     background-color: #FF0000;
     color: white;
     display: flex;
+	align-items: center;
+    justify-content: center;
 }
 
