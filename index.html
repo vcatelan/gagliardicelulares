@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="./img/G.png">
+	<link rel="icon" href="./img/logo.png">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -25,7 +25,7 @@
             <div class="menu">
                 <h1 class="menu-logo"><a href="#home.html">GAGLIARDI CELULARES</a></h1>
             </div>
-            <nav class="menu-nav">
+            <nav class="menu-nav js-menu">
                 <ul>
                     <li><a href="#assistencia.html">Assistência Técnica</a></li>
                     <li><a href="#acessorios.html">Acessórios</a></li>
@@ -35,7 +35,7 @@
         </header>
     </section>
 
-    <section class="home" id="home">
+    <section class="home js-scroll" id="home">
         <div class="home-info">
             <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -69,7 +69,7 @@
     </section>
 
 
-    <section class="assistencia" id="assistencia">
+    <section class="assistencia js-scroll" id="assistencia">
         <div class="assistencia-info">
             <h2>Assistência Técnica</h2>
                 <p>
@@ -104,7 +104,7 @@
         </div>
     </section>
 
-    <section class="acessorios" id="acessorios">
+    <section class="acessorios js-scroll" id="acessorios">
         <div class="acessorios-info">
             <h2>Acessórios</h2>
                 <p>
@@ -121,7 +121,7 @@
             <img class="marca" src="img/cabos.png">
             <p>Cabos</p>
         </div>
-        <div class="marcas">
+        <div class="marcas">         
             <img class="marca" src="img/carregador.png">
             <p>Carregador Portátil</p>
         </div>
@@ -139,26 +139,21 @@
         </div>
     </section>
 
-    <section class="contato" id="contato">
+    <section class="contato js-scroll" id="contato">
         <div class="contato-info">
             <h2>Contato</h2>
                 <p>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 </p>
             <form name="meu_form">          
-                <!-- <label for="nome">Nome</label> -->
                 <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
-                <!-- <label for="fone">Fone</label> -->
                 <input type="tel" id="foneid" placeholder="(xx)xxx-xxx-xxx" name="fone" />  
-                <!-- <label for="email">Email</label> -->
                 <input type="email" id="emailid" placeholder="email@email.com.br" name="email" />
-                <!-- s -->
                 <textarea placeholder="Informe a marca, modelo e sua dúvida ou problema de seu aparelho"></textarea>
                 <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
               </form>
         </div>
     </section>
-
     <section>
         <footer class="footerinfo-bg">
             <div class="footer-bg">
@@ -166,19 +161,61 @@
             </div>
         </footer>
     </section>
-
+    <script src="/js/formulario.js"></script>
 </body>
 </html>
 
-<script>
 
-    function Enviar() {
-        
-        var nome = document.getElementById("nomeid");
-        
-        if (nome.value != "") {
-            alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
-        }
-        
-    }
-</script>
+
+
+
+
+<!-- <select name="marcas">
+    <option value="marca1">Apple</option>
+    <option value="marca2" selected>ASUS</option>
+    <option value="marca3">Huawei</option>
+    <option value="marca4">Lenovo</option>
+    <option value="marca5" selected>LG</option>
+    <option value="marca6">Motorola</option>
+    <option value="marca7">Nokia</option>
+    <option value="marca8" selected>Samsung</option>
+    <option value="marca9">Xiaomi</option>
+    <option value="marca10">Outro</option>
+  </select>
+  <form name="modelo">          
+    <input type="text" id="modeloid" placeholder="Modelo Celular" required="required" name="Modelo Celular" />
+    <textarea placeholder="Informe o problema que seu aparelho apresenta:"></textarea>
+    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+  </form> -->
+
+  
+  <!-- Modal -->
+ 
+  <!-- <section class="servicos">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+        <div class="marcas">
+        <img class="marca" src="./img/cell.png">
+        <p>Display e Vidro</p>
+        </div>
+    </button>
+</section>
+
+<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar mudanças</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
