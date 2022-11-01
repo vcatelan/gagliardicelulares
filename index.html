@@ -7,6 +7,8 @@
 	<link rel="icon" href="./img/logo.png">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/splide-core.min.css">
+    <link rel="stylesheet" href="./css/splide.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Gagliardi Celulares</title>
 </head>
@@ -27,13 +29,15 @@
             </div>
             <nav class="menu-nav js-menu">
                 <ul>
-                    <li><a href="#assistencia.html">Assistência Técnica</a></li>
-                    <li><a href="#acessorios.html">Acessórios</a></li>
-                    <li><a href="#contato.html">Contato</a></li>
+                    <li><a href="#assistencia">Assistência Técnica</a></li>
+                    <li><a href="#acessorios">Acessórios</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </header>
     </section>
+
+
 
     <section class="home js-scroll" id="home">
         <div class="home-info">
@@ -48,10 +52,9 @@
                 <img src="./img/assistencia.jpg" alt="assistencia">
             </div> -->
         </div>
-        <div class="atendimento-container">
+        <!-- <div class="atendimento-container">
             <div class="atendimento-item">
                 <img src="img/assistencia.jpg" onmouseover="this.src='img/assistencia-1.jpg'" onmouseout="this.src='img/assistencia.jpg'" alt="assistencia">
-                <!-- <img src="./img/assistencia.jpg" alt="assistência"> -->
                 <h2>Assistência</h2>
             </div>
             <div class="atendimento-item">
@@ -62,11 +65,28 @@
                 <img src="img/manutencao-1.jpg" onmouseover="this.src='img/manutencao.jpg'" onmouseout="this.src='img/manutencao-1.jpg'" alt="manutenção">
                 <h2>Manutenção</h2>
             </div>
-        </div>
+        </div> -->
         <!-- <div class="atendimento-item download">
             <h2>Tem alguma dúvida? Fale conosco AQUI</h2>
         </div> -->
     </section>
+
+    <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide">
+                        <h2 class="head-light-slide">A MELHOR ASSISTÊNCIA DE SÃO BERNARDO E REGIÃO</h2>
+                      <img src="img/assistencia.jpg" alt="">
+                  </li>
+                  <li class="splide__slide">
+                      <img src="img/acessorios.jpg" alt="">
+                  </li>
+                  <li class="splide__slide">
+                      <img src="img/manutencao.jpg" alt="">
+                  </li>
+              </ul>
+        </div>
+      </section>
 
 
     <section class="assistencia js-scroll" id="assistencia">
@@ -161,6 +181,7 @@
             </div>
         </footer>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
     <script src="/js/formulario.js"></script>
 </body>
 </html>

@@ -56,6 +56,22 @@ img {
     align-items: center;
     justify-content: space-between;
 }
+
+.splide__slide img {
+	width: 100%;
+	height: auto;
+}
+
+.head-light-slide {
+	font-size: 4em;
+	margin-bottom: .5em;
+	color: black;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	align-content: center;
+}
+
 .menu {
 	max-width: 950px;
 	margin: 0 0 0 50px;

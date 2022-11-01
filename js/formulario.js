@@ -51,9 +51,9 @@ function initAnimacaoScroll() {
 
 initAnimacaoScroll ();
 
-var splide = new Splide( '.splide', {
-    type   : 'loop',
-    padding: '5rem',
+  document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-carousel' ).mount();
   } );
-  
-  splide.mount();
+
+
+
